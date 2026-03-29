@@ -12,12 +12,13 @@ A lightweight **agentic AI system** built using **LangGraph + FastAPI**, designe
 * 🌐 **Tool Integration** – includes a simple web search verification tool
 * 🤖 **Agentic AI** – uses LangGraph ReAct agent pattern
 * ☁️ **Cloud Deployment** – deployed on AWS Free Tier
+* * 🔗 **URL Analysis** – supports article links and extracts content automatically
 
 ---
 
 ## 🧱 System Architecture
 
-User Input → LangGraph Agent → Tool Usage → Analysis → Output
+User Input → FastAPI → LangGraph Agent → Tools → LLM → Structured Output
 
 The system uses a **ReAct-style agent** that dynamically decides when to call tools such as:
 
@@ -45,8 +46,8 @@ capstone/
 ├── requirements.txt
 ├── Procfile           
 ├── .ebignore          
-└── .ebextensions/
-     └── python.config 
+├── .ebextensions/
+│    └── python.config 
 └── README.md
 ```
 
@@ -57,7 +58,7 @@ capstone/
 ### 1. Clone repository
 
 ```
-git clone https://github.com/your-username/fake-news-agent.git
+git clone https://github.com/jefflung/Building_Agentic_AI_APP_Capstone.git
 cd fake-news-agent
 ```
 
@@ -120,7 +121,7 @@ http://127.0.0.1:8000/docs
 
 ```json
 {
-  "result": "The article contains exaggerated claims and shows high bias..."
+  "result": "[Claims] ... [Bias] ... [Risk] ... [Conclusion] ..."
 }
 ```
 
@@ -137,6 +138,10 @@ eb init
 eb create fake-news-agent-env
 eb deploy
 ```
+## 🌍 Live Demo
+
+API Documentation:
+http://fake-news-detector-env.eba-a2fd7933.eu-north-1.elasticbeanstalk.com/docs
 
 ---
 
@@ -167,8 +172,14 @@ This project was developed as part of an **Agentic AI / LangGraph coursework ass
 * Add database memory
 * Improve NLP accuracy using LLM prompts
 * Add evaluation metrics
+ * 🔗 **URL Analysis** – supports article links and extracts content automatically
 
 ---
+
+## 📦 Requirements
+
+- Python 3.10+
+- OpenAI API Key
 
 ## 👤 Author
 
