@@ -181,6 +181,15 @@ This project was developed as part of an **Agentic AI / LangGraph coursework ass
 - Python 3.10+
 - OpenAI API Key
 
+---
+
+## 🎬 Report and Video demo
+
+Peport PDF : https://drive.google.com/file/d/1muFbm0ZIsGq69DiGpgZrVD8UAbmQvJWc/view?usp=drive_link
+
+Video demo : https://drive.google.com/file/d/1FcZ690agxED5L1AWhkd3GgNpzOeoJRbu/view?usp=sharing
+
+
 ## 👤 Author
 
 Student Project — Building Agentic AI App course by Codecademy Nov 2025 - Mar 2026
