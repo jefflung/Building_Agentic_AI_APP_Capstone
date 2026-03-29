@@ -1,0 +1,25 @@
+# Secret files
+.env
+fake_news_agent/.env
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environment
+venv/
+.venv/
+
+# Zip files
+*.zip
+
+# IDE / OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Elastic Beanstalk 
+.elasticbeanstalk/
