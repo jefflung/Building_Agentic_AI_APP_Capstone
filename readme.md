@@ -172,8 +172,7 @@ This project was developed as part of an **Agentic AI / LangGraph coursework ass
 * Add database memory
 * Improve NLP accuracy using LLM prompts
 * Add evaluation metrics
- * 🔗 **URL Analysis** – supports article links and extracts content automatically
-
+  
 ---
 
 ## 📦 Requirements
