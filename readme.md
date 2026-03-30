@@ -12,7 +12,7 @@ A lightweight **agentic AI system** built using **LangGraph + FastAPI**, designe
 * 🌐 **Tool Integration** – includes a simple web search verification tool
 * 🤖 **Agentic AI** – uses LangGraph ReAct agent pattern
 * ☁️ **Cloud Deployment** – deployed on AWS Free Tier
-* * 🔗 **URL Analysis** – supports article links and extracts content automatically
+* 🔗 **URL Analysis** – supports article links and extracts content automatically
 
 ---
 
