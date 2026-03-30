@@ -191,8 +191,7 @@ Video demo : https://drive.google.com/file/d/1FcZ690agxED5L1AWhkd3GgNpzOeoJRbu/v
 
 ## 👤 Author
 
-Student Project — Building Agentic AI App course by Codecademy Nov 2025 - Mar 2026
-(Company context anonymised)
+Hello, my name is Jeff Lung. This is a student Project for the Building Agentic AI Applications for Beginners course by Codecademy (Nov 2025 - Mar 2026).
 
 ---
 
